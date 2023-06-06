@@ -1,0 +1,19 @@
+memory_allocate 16
+fork_and_exec program1
+memory_allocate 8
+fork_and_exec program2
+wait
+memory_release 0
+memory_allocate 8
+memory_read 18
+memory_write 20
+memory_read 18
+memory_read 18
+memory_read 18
+memory_write 21
+memory_read 22
+memory_read 21
+memory_write 19
+memory_read 24
+memory_release 2
+exit

@@ -1,0 +1,20 @@
+memory_read 0
+memory_read 3
+memory_read 4
+memory_read 5
+memory_read 3
+memory_read 3
+memory_read 3
+memory_read 5
+memory_read 0
+memory_write 2
+memory_write 5
+memory_read 5
+memory_read 5
+memory_read 9
+memory_read 7
+memory_allocate 2
+memory_release 0
+memory_allocate 3
+memory_allocate 2
+exit
