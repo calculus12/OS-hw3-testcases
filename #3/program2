@@ -1,0 +1,4 @@
+memory_write 2
+memory_write 5
+memory_write 10
+exit
